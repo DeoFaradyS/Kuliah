@@ -1,4 +1,4 @@
-package Tugas;
+
 
 import java.awt.*;
 

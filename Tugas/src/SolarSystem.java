@@ -1,6 +1,3 @@
-package Tugas;
-
-
 import java.awt.*;
 import java.awt.geom.*;
 
