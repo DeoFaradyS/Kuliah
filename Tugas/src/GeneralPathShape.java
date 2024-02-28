@@ -32,6 +32,7 @@ public class GeneralPathShape extends Frame {
         GeneralPathShape r = new GeneralPathShape();
         r.setTitle("Exercise 2.1");
         r.setSize(400, 400);
+        r.setLocationRelativeTo(null);
         r.setVisible(true);
     }
 }

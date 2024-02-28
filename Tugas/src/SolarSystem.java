@@ -29,7 +29,7 @@ public class SolarSystem extends Frame {
         SolarSystem s = new SolarSystem();
         s.setTitle("Exercise 2.2");
         s.setSize(400, 400);
-        s.setLocation(0, 0);
+        s.setLocationRelativeTo(null);
         s.setVisible(true);
     }
 }
