@@ -58,6 +58,7 @@ public class SolarSystem extends Frame implements Runnable {
         }
     }
 
+    
     public void paint(Graphics g) {
         Graphics2D g2d = (Graphics2D) g;
 
