@@ -10,30 +10,41 @@ Repositori ini berisi aplikasi Java yang dibuat untuk menyelesaikan tugas-tugas 
 
 ## Structure
 
-📦Kuliah1
- ┣ 📂.vscode
- ┃ ┗ 📜settings.json
- ┣ 📂lib
- ┣ 📂src
- ┃ ┣ 📜App.java
- ┃ ┣ 📜beatingheart.java
- ┃ ┣ 📜CoordinateSystem.java
- ┃ ┣ 📜GeneralPathShape.java
- ┃ ┣ 📜Heart.java
- ┃ ┣ 📜Lette.java
- ┃ ┣ 📜LetterD.java
- ┃ ┣ 📜SolarSystem.java
- ┃ ┣ 📜StrokingEx2.java
- ┃ ┣ 📜StrokingExample.java
- ┃ ┗ 📜WindowCloser.java
- ┗ 📜README.md
+```
+Kuliah1
+├─ .vscode
+│  └─ settings.json
+├─ bin
+│  ├─ Controller
+│  │  ├─ CoordinateSystem.class
+│  │  └─ WindowCloser.class
+│  ├─ Tugas1
+│  │  ├─ beatingheart.class
+│  │  ├─ GeneralPathShape.class
+│  │  ├─ LetterD.class
+│  │  └─ SolarSystem.class
+│  └─ Tugas2
+├─ lib
+├─ README.md
+└─ src
+   ├─ Controller
+   │  ├─ CoordinateSystem.java
+   │  └─ WindowCloser.java
+   ├─ Tugas1
+   │  ├─ beatingheart.java
+   │  ├─ GeneralPathShape.java
+   │  ├─ LetterD.java
+   │  └─ SolarSystem.java
+   └─ Tugas2
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+```
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Note
 
-## Dependency Management
+- The source code is in the `src` folder.
+- This repository is still under development.
+- Features and documentation will be added as the application progresses.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Credit
 
-##  structure
+Deo Farady Santoso (1201220447) - Rekayasa Perangkat Lunak.
