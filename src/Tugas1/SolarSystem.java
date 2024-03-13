@@ -1,21 +1,20 @@
+package Tugas1;
 import java.awt.*;
-import java.awt.geom.*;
+
+import Controller.WindowCloser;
 
 public class SolarSystem extends Frame implements Runnable {
-    private int windowHeight;
-    private int sunRadius = 55;
-    private int planetRadius = 25;
-    private int orbitRadius = 200;
-    private int centerX = 200;
-    private int centerY = 85;
-    private double rotationAngle = 0;
-    private double orbitAngle = 0;
     private Thread animator;
+    private int centerY = 85;
+    private int centerX = 200;
+    private int sunRadius = 55;
+    private double orbitAngle = 0;
+    private int orbitRadius = 200;
+    private int planetRadius = 25;
 
     SolarSystem(int height) {
         // Enable closing of the window
         addWindowListener(new WindowCloser());
-        windowHeight = height;
     }
 
     public void start() {
@@ -38,7 +37,7 @@ public class SolarSystem extends Frame implements Runnable {
             startTime = System.currentTimeMillis();
 
             // Update rotation angle
-            rotationAngle += Math.PI / 365;
+            // rotationAngle = Math.PI / 365;
 
             // Update orbit angle (change to negative to rotate clockwise)
             orbitAngle -= Math.PI / 120;

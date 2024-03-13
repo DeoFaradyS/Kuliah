@@ -1,5 +1,8 @@
+package Tugas1;
 import java.awt.*;
 import java.awt.geom.*;
+
+import Controller.WindowCloser;
 
 public class LetterD extends Frame {
     LetterD() {

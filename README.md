@@ -1,13 +1,32 @@
-## Getting Started
+## Repositori Kuliah Grafika Komputer
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Repositori ini berisi aplikasi Java yang dibuat untuk menyelesaikan tugas-tugas kuliah.
 
-## Folder Structure
+![Build with](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
-The workspace contains two folders by default, where:
+## Requirement
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Java
+
+## Structure
+
+📦Kuliah1
+ ┣ 📂.vscode
+ ┃ ┗ 📜settings.json
+ ┣ 📂lib
+ ┣ 📂src
+ ┃ ┣ 📜App.java
+ ┃ ┣ 📜beatingheart.java
+ ┃ ┣ 📜CoordinateSystem.java
+ ┃ ┣ 📜GeneralPathShape.java
+ ┃ ┣ 📜Heart.java
+ ┃ ┣ 📜Lette.java
+ ┃ ┣ 📜LetterD.java
+ ┃ ┣ 📜SolarSystem.java
+ ┃ ┣ 📜StrokingEx2.java
+ ┃ ┣ 📜StrokingExample.java
+ ┃ ┗ 📜WindowCloser.java
+ ┗ 📜README.md
 
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
@@ -16,3 +35,5 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+##  structure

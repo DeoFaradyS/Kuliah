@@ -1,6 +1,9 @@
+package Tugas1;
 import java.awt.*;
 import java.awt.geom.*;
 import java.util.Date;
+
+import Controller.WindowCloser;
 
 public class beatingheart extends Frame {
 
