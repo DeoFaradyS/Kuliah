@@ -1,6 +1,6 @@
 ## Repositori Kuliah Grafika Komputer
 
-Repositori ini berisi aplikasi Java yang dibuat untuk menyelesaikan tugas-tugas kuliah.
+This repository contains Java applications created to complete course assignments.
 
 ![Build with](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
